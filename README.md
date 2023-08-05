@@ -1,3 +1,3 @@
 # SneakerHeadz
 
-E-commerce sneaker store website built with React.
+E-commerce sneaker store built with React.
