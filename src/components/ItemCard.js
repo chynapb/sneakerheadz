@@ -1,47 +1,26 @@
-import {
-  Button,
-  Card,
-  CardBody,
-  CardGroup,
-  CardImg,
-  CardTitle,
-  Col,
-  Row,
-  Container,
-} from 'reactstrap';
+import { Button, Card, CardImg } from 'react-bootstrap';
+import { CardBody, CardTitle } from 'reactstrap';
 
-export const ItemCard = () => {
+export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
   return (
-    <Container fluid>
-      <Row>
-        <Col sm='3'>
-          <Card>
-            <CardImg src='https://cdn.flightclub.com/2200/TEMPLATE/253215/1.jpg'></CardImg>
-            <CardBody>
-              <CardTitle tag='h5'>Nike</CardTitle>
-              <Button>Add to cart</Button>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col sm='3'>
-          <Card>
-            <CardImg src='https://cdn.flightclub.com/2200/TEMPLATE/253215/1.jpg'></CardImg>
-            <CardBody>
-              <CardTitle tag='h5'>Nike</CardTitle>
-              <Button>Add to cart</Button>
-            </CardBody>
-          </Card>
-        </Col>
-        <Col sm='3'>
-          <Card>
-            <CardImg src='https://cdn.flightclub.com/2200/TEMPLATE/253215/1.jpg'></CardImg>
-            <CardBody>
-              <CardTitle tag='h5'>Nike</CardTitle>
-              <Button>Add to cart</Button>
-            </CardBody>
-          </Card>
-        </Col>
-      </Row>
-    </Container>
+    <Card style={{ border: 'none' }} className='shadow-sm'>
+      <CardImg
+        variant='top'
+        src={imgUrl}
+        height='300px'
+        style={{ objectFit: 'cover' }}
+      ></CardImg>
+      <CardBody className='d-flex flex-column'>
+        <CardTitle className='d-flex justify-content-between align-items-baseline mb-4'>
+          <h5>{name}</h5>
+          <span className='ms-2 text-muted' style={{ fontSize: '1rem' }}>
+            {price}
+          </span>
+        </CardTitle>
+        <Button className='btn btn-dark' style={{ border: 'none' }}>
+          Add to cart
+        </Button>
+      </CardBody>
+    </Card>
   );
 };

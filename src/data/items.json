@@ -13,7 +13,7 @@
     "name": "Adidas NMD_R1 - Blue Night",
     "color": "blue",
     "price": 150.0,
-    "imgUrl": "/imgs/adidas/adidas-2-.jpg"
+    "imgUrl": "/imgs/adidas/adidas-2.jpg"
   },
   {
     "id": 3,
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "brand": "Air Jordan",
-    "name": "Air Jordan 1 - Retro High OG Chicago",
+    "name": "Air Jordan 1 - Retro OG Chicago",
     "color": "red",
     "price": 1300.0,
     "imgUrl": "/imgs/jordan/jordan-1.jpg"
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "brand": "Air Jordan",
-    "name": "Air Jordan 1 - Retro High OG Storm Blue",
+    "name": "Air Jordan 1 - Retro OG Storm Blue",
     "color": "blue",
     "price": 499.99,
     "imgUrl": "/imgs/jordan/jordan-2.jpg"
