@@ -20,6 +20,20 @@ export const Navbar = () => {
       >
         <FontAwesomeIcon icon={faCartShopping}></FontAwesomeIcon>
       </Button>
+      <div
+        className='rounded-circle bg-danger d-flex justify-content-center align-items-center'
+        style={{
+          color: 'white',
+          width: '1.5rem',
+          height: '1.5rem',
+          position: 'absolute',
+          bottom: 3,
+          right: 85,
+          fontSize: '14px',
+        }}
+      >
+        3
+      </div>
     </NavbarBs>
   );
 };
