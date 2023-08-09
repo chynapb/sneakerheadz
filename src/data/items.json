@@ -2,7 +2,7 @@
   {
     "id": 1,
     "brand": "Adidas",
-    "name": "Adidas - Campus 2 - G22970",
+    "name": "Adidas Campus 2 - G22970",
     "color": "red",
     "price": 79.99,
     "imgUrl": "/imgs/adidas/adidas-1.jpg"
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "brand": "Adidas",
-    "name": "Adidas - NMD_R1 - Blue Night",
+    "name": "Adidas NMD_R1 - Blue Night",
     "color": "blue",
     "price": 150.0,
     "imgUrl": "/imgs/adidas/adidas-2-.jpg"
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "brand": "Adidas",
-    "name": "Adidas - Stan Smith - White Green",
+    "name": "Adidas Stan Smith - White Green",
     "color": "white",
     "price": 100.0,
     "imgUrl": "/imgs/adidas/adidas-3.jpg"
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "brand": "Adidas",
-    "name": "Adidas - UltraBoost 1.0 - Olive",
+    "name": "Adidas UltraBoost 1.0 - Olive",
     "color": "green",
     "price": 129.99,
     "imgUrl": "/imgs/adidas/adidas-4.jpg"
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "brand": "Adidas",
-    "name": "Adidas - UltraBoost 4.0 - Triple Black",
+    "name": "Adidas UltraBoost 4.0 - Triple Black",
     "color": "black",
     "price": 150.0,
     "imgUrl": "/imgs/adidas/adidas-5.jpg"
@@ -82,121 +82,121 @@
   {
     "id": 11,
     "brand": "New Balance",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "New Balance 550 - White Shadow Grey",
+    "color": "white",
+    "price": 95.0,
+    "imgUrl": "/imgs/new-balance/new-balance-1.jpg"
   },
   {
     "id": 12,
     "brand": "New Balance",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "New Balance 574 - Grey White",
+    "color": "gray",
+    "price": 89.99,
+    "imgUrl": "/imgs/new-balance/new-balance-2.jpg"
   },
   {
     "id": 13,
     "brand": "New Balance",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "New Balance 574 - Legacy Orange",
+    "color": "orange",
+    "price": 99.99,
+    "imgUrl": "/imgs/new-balance/new-balance-3.jpg"
   },
   {
     "id": 14,
     "brand": "New Balance",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "New Balance 990V4 - Plum Purple",
+    "color": "purple",
+    "price": 230.0,
+    "imgUrl": "/imgs/new-balance/new-balance-4.jpg"
   },
   {
     "id": 15,
     "brand": "New Balance",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "New Balance 2002R - Black Gunmetal",
+    "color": "black",
+    "price": 139.99,
+    "imgUrl": "/imgs/new-balance/new-balance-5.jpg"
   },
   {
     "id": 16,
     "brand": "Nike",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Air Max 90 - Chlorophyll",
+    "color": "green",
+    "price": 129.99,
+    "imgUrl": "/imgs/nike/nike-1.jpg"
   },
   {
     "id": 17,
     "brand": "Nike",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Air Max 95 - Triple Black",
+    "color": "black",
+    "price": 175.0,
+    "imgUrl": "/imgs/nike/nike-2.jpg"
   },
   {
     "id": 18,
     "brand": "Nike",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Air Max 97 - Triple White",
+    "color": "white",
+    "price": 175.0,
+    "imgUrl": "/imgs/nike/nike-3.jpg"
   },
   {
     "id": 19,
     "brand": "Nike",
-    "name": "Adidas - Campus 2 - G22970",
+    "name": "Air Max 270 - Habanero Red",
     "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "price": 250.0,
+    "imgUrl": "/imgs/nike/nike-4.jpg"
   },
   {
     "id": 120,
     "brand": "Nike",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Dunk Low - University Blue",
+    "color": "blue",
+    "price": 399.99,
+    "imgUrl": "/imgs/nike/nike-5.jpg"
   },
   {
     "id": 21,
     "brand": "Puma",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Puma RS-SIMUL8 - Core White",
+    "color": "white",
+    "price": 190.0,
+    "imgUrl": "/imgs/puma/puma-1.jpg"
   },
   {
     "id": 22,
     "brand": "Puma",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Puma RS-X - Black Glacial Grey",
+    "color": "black",
+    "price": 145.0,
+    "imgUrl": "/imgs/puma/puma-2.jpg"
   },
   {
     "id": 23,
     "brand": "Puma",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Puma Suede Classic - Clementine",
+    "color": "orange",
+    "price": 135.0,
+    "imgUrl": "/imgs/puma/puma-3.jpg"
   },
   {
     "id": 24,
     "brand": "Puma",
-    "name": "Adidas - Campus 2 - G22970",
+    "name": "Puma Suede Classic - High Risk Red",
     "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "price": 75.0,
+    "imgUrl": "/imgs/puma/puma-4.jpg"
   },
   {
     "id": 25,
     "brand": "Puma",
-    "name": "Adidas - Campus 2 - G22970",
-    "color": "red",
-    "price": 79.99,
-    "imgUrl": "/imgs/adidas/campus2-g22970.jpg"
+    "name": "Puma Crepe SC - Sweet Grape",
+    "color": "purple",
+    "price": 84.99,
+    "imgUrl": "/imgs/puma/puma-5.jpg"
   }
 ]
