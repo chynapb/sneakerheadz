@@ -1,6 +1,5 @@
 import { Navbar } from './components/Navbar';
 import { Header } from './components/Header';
-import { ItemCard } from './components/ItemCard';
 import { Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
 import { Shop } from './pages/Shop';

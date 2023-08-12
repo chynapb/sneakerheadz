@@ -2,6 +2,8 @@ import items from '../data/items.json';
 import { ItemCard } from '../components/ItemCard';
 import { Row, Col } from 'react-bootstrap';
 
+// Map through each item and render to page
+
 export const Shop = () => {
   return (
     <Row xs={1} md={2} lg={3} className='g-4'>

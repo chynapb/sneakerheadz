@@ -2,13 +2,16 @@ import { Button, Card, CardImg } from 'react-bootstrap';
 import { CardBody, CardTitle } from 'reactstrap';
 import { formatCurrency } from '../utils/formatCurrency';
 
+// Render each shopping item as a card element - display image, name, and price
+
 export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
+  const quantity = 0;
+
   return (
-    <Card style={{ border: 'none' }} className='shadow-sm'>
+    <Card style={{ border: 'none' }} className='h-100 shadow-sm'>
       <CardImg
         variant='top'
         src={imgUrl}
-        height='300px'
         style={{ objectFit: 'cover' }}
       ></CardImg>
       <CardBody className='d-flex flex-column'>
@@ -18,9 +21,34 @@ export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
             {formatCurrency(price)}
           </span>
         </CardTitle>
-        <Button className='btn btn-dark' style={{ border: 'none' }}>
-          Add to cart
-        </Button>
+        <div className='mt-auto'>
+          {quantity === 0 ? (
+            <Button className='w-100 btn-dark' style={{ border: 'none' }}>
+              Add to cart
+            </Button>
+          ) : (
+            <div
+              className='d-flex align-items-center flex-column'
+              style={{ gap: '.5rem' }}
+            >
+              <div
+                className='d-flex align-items-center justify-content-center'
+                style={{ gap: '.5rem' }}
+              >
+                <Button className='btn-secondary' size='sm'>
+                  -
+                </Button>
+                <div>{quantity} in cart</div>
+                <Button className='btn-secondary' size='sm'>
+                  +
+                </Button>
+              </div>
+              <Button className='btn-danger' size='sm'>
+                Remove
+              </Button>
+            </div>
+          )}
+        </div>
       </CardBody>
     </Card>
   );

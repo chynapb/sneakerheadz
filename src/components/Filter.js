@@ -1,7 +1,5 @@
+// Allow user to filter items by criteria
+
 export const Filter = () => {
-  return (
-    <div>
-      <h5>Filter Items</h5>
-    </div>
-  );
+  return <div></div>;
 };
