@@ -5,10 +5,11 @@ import { Container } from 'react-bootstrap';
 import { Shop } from './pages/Shop';
 import './App.css';
 import { Filter } from './components/Filter';
+import { CartProvider } from './context/CartContext';
 
 function App() {
   return (
-    <>
+    <CartProvider>
       <Navbar />
       <Header />
       <Filter />
@@ -17,7 +18,7 @@ function App() {
           <Route path='/' element={<Shop />} />
         </Routes>
       </Container>
-    </>
+    </CartProvider>
   );
 }
 

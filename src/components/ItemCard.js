@@ -1,11 +1,18 @@
 import { Button, Card, CardImg } from 'react-bootstrap';
 import { CardBody, CardTitle } from 'reactstrap';
 import { formatCurrency } from '../utils/formatCurrency';
+import { useCart } from '../context/CartContext';
 
 // Render each shopping item as a card element - display image, name, and price
 
 export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
-  const quantity = 0;
+  const {
+    getItemQuantity,
+    increaseCartQuantity,
+    decreaseCartQuantity,
+    removeCartItem,
+  } = useCart();
+  const quantity = getItemQuantity(id);
 
   return (
     <Card style={{ border: 'none' }} className='h-100 shadow-sm'>
@@ -23,7 +30,11 @@ export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
         </CardTitle>
         <div className='mt-auto'>
           {quantity === 0 ? (
-            <Button className='w-100 btn-dark' style={{ border: 'none' }}>
+            <Button
+              onClick={() => increaseCartQuantity(id)}
+              className='w-100 btn-dark'
+              style={{ border: 'none' }}
+            >
               Add to cart
             </Button>
           ) : (
@@ -35,15 +46,27 @@ export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
                 className='d-flex align-items-center justify-content-center'
                 style={{ gap: '.5rem' }}
               >
-                <Button className='btn-secondary' size='sm'>
+                <Button
+                  onClick={() => decreaseCartQuantity(id)}
+                  className='btn-secondary'
+                  size='sm'
+                >
                   -
                 </Button>
                 <div>{quantity} in cart</div>
-                <Button className='btn-secondary' size='sm'>
+                <Button
+                  onClick={() => increaseCartQuantity(id)}
+                  className='btn-secondary'
+                  size='sm'
+                >
                   +
                 </Button>
               </div>
-              <Button className='btn-danger' size='sm'>
+              <Button
+                onClick={() => removeCartItem(id)}
+                className='btn-danger'
+                size='sm'
+              >
                 Remove
               </Button>
             </div>
