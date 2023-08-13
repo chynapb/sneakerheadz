@@ -62,13 +62,6 @@ export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
                   +
                 </Button>
               </div>
-              <Button
-                onClick={() => removeCartItem(id)}
-                className='btn-danger'
-                size='sm'
-              >
-                Remove
-              </Button>
             </div>
           )}
         </div>
