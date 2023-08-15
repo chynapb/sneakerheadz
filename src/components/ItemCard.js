@@ -48,16 +48,18 @@ export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
               >
                 <Button
                   onClick={() => decreaseCartQuantity(id)}
-                  className='btn-secondary'
+                  className='btn btn-outline-secondary'
                   size='sm'
+                  id='minus'
                 >
                   -
                 </Button>
                 <div>{quantity} in cart</div>
                 <Button
                   onClick={() => increaseCartQuantity(id)}
-                  className='btn-secondary'
+                  className='btn btn-outline-secondary'
                   size='sm'
+                  id='plus'
                 >
                   +
                 </Button>

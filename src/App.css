@@ -10,3 +10,21 @@
 .link {
   font-family: 'Oswald', sans-serif;
 }
+
+#plus,
+#minus {
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 0;
+  outline: 'none';
+}
+
+#plus:hover {
+  color: #000000;
+  background-color: #ebebeb;
+}
+
+#minus:hover {
+  color: #000000;
+  background-color: #ebebeb;
+}
