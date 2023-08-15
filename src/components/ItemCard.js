@@ -5,13 +5,9 @@ import { useCart } from '../context/CartContext';
 
 // Render each shopping item as a card element - display image, name, and price
 
-export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
-  const {
-    getItemQuantity,
-    increaseCartQuantity,
-    decreaseCartQuantity,
-    removeCartItem,
-  } = useCart();
+export const ItemCard = ({ id, name, price, imgUrl }) => {
+  const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity } =
+    useCart();
   const quantity = getItemQuantity(id);
 
   return (
@@ -48,18 +44,18 @@ export const ItemCard = ({ id, brand, name, color, price, imgUrl }) => {
               >
                 <Button
                   onClick={() => decreaseCartQuantity(id)}
-                  className='btn btn-outline-secondary'
+                  className='btn-secondary'
                   size='sm'
-                  id='minus'
+                  style={{ color: 'white', outline: 'none' }}
                 >
                   -
                 </Button>
                 <div>{quantity} in cart</div>
                 <Button
                   onClick={() => increaseCartQuantity(id)}
-                  className='btn btn-outline-secondary'
+                  className='btn-secondary'
                   size='sm'
-                  id='plus'
+                  style={{ color: 'white', outline: 'none' }}
                 >
                   +
                 </Button>

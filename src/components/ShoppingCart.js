@@ -1,4 +1,5 @@
 import {
+  Button,
   Offcanvas,
   OffcanvasBody,
   OffcanvasHeader,
@@ -31,6 +32,11 @@ export const ShoppingCart = ({ isOpen }) => {
                 return acc + (shopItem?.price || 0) * curr.quantity;
               }, 0)
             )}
+          </div>
+          <div className='mt-2'>
+            <Button className='w-100 btn-dark' style={{ border: 'none' }}>
+              Checkout
+            </Button>
           </div>
         </Stack>
       </OffcanvasBody>
