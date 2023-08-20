@@ -71,7 +71,7 @@ export const CartProvider = ({ children }) => {
   };
 
   const clearCart = () => {
-    localStorage.setItem('cart-items', JSON.stringify([]));
+    localStorage.clear();
   };
 
   return (

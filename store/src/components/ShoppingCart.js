@@ -26,11 +26,9 @@ export const ShoppingCart = ({ isOpen }) => {
       })
       .then((response) => {
         // Send user to Stripe
-        if (response.url === 'http://localhost:3000/success') {
+        if (response.url) {
           window.location.assign(response.url);
           clearCart();
-        } else {
-          window.location.assign(response.url);
         }
       });
   };
