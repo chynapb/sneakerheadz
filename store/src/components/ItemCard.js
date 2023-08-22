@@ -11,7 +11,7 @@ export const ItemCard = ({ id, name, price, imgUrl }) => {
   const quantity = getItemQuantity(id);
 
   return (
-    <Card style={{ border: 'none' }} className='h-100 shadow-sm'>
+    <Card style={{ border: 'none' }} className='h-100 shadow bg-white'>
       <CardImg
         variant='top'
         src={imgUrl}

@@ -1,4 +1,10 @@
-import { Button, Container, Nav, Navbar as NavbarBs } from 'react-bootstrap';
+import {
+  Button,
+  Container,
+  Nav,
+  NavbarBrand,
+  Navbar as NavbarBs,
+} from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 
@@ -6,7 +12,7 @@ export const Navbar = () => {
   const { openCart, cartQuantity } = useCart();
 
   return (
-    <NavbarBs sticky='top' className='bg-dark shadow-sm mb-3'>
+    <NavbarBs sticky='top' className='navbar bg-dark shadow-sm mb-3'>
       <Container>
         <Nav className='me-auto'>
           <Nav.Link
