@@ -1,3 +1,3 @@
 # SneakerHeadz
 
-Full stack e-commerce sneaker store built with React. This project utilizes the React Context API, local storage, Express.js, and Stripe.
+Full stack e-commerce sneaker store built with React. This project utilizes the React Context API, Express.js, and Stripe.
