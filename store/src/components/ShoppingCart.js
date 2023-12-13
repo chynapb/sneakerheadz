@@ -11,8 +11,12 @@ import { CartItem } from './CartItem';
 import { formatCurrency } from '../utils/formatCurrency';
 import items from '../data/items.json';
 
+// Display all items in cart
+
 export const ShoppingCart = ({ isOpen }) => {
   const { closeCart, cartItems, cartQuantity, clearCart } = useCart();
+
+  // Checkout functionality
   const checkout = async () => {
     await fetch('http://localhost:4000/checkout', {
       method: 'POST',

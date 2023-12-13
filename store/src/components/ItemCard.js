@@ -11,7 +11,10 @@ export const ItemCard = ({ id, name, price, imgUrl }) => {
   const quantity = getItemQuantity(id);
 
   return (
-    <Card style={{ border: 'none' }} className='h-100 shadow bg-white'>
+    <Card
+      style={{ border: 'none', borderRadius: '15px' }}
+      className='h-100 shadow bg-white'
+    >
       <CardImg
         variant='top'
         src={imgUrl}
@@ -28,8 +31,8 @@ export const ItemCard = ({ id, name, price, imgUrl }) => {
           {quantity === 0 ? (
             <Button
               onClick={() => increaseCartQuantity(id)}
-              className='w-100 btn-dark'
-              style={{ border: 'none' }}
+              className='add-btn w-100 btn-dark'
+              style={{ border: 'none', borderRadius: '20px' }}
             >
               Add to cart
             </Button>

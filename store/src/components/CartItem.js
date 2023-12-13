@@ -3,6 +3,8 @@ import { useCart } from '../context/CartContext';
 import items from '../data/items.json';
 import { formatCurrency } from '../utils/formatCurrency';
 
+// Render item currently in cart -  display image, name, and price
+
 export const CartItem = ({ id, quantity }) => {
   const { removeCartItem } = useCart();
   const shopItem = items.find((item) => item.id === id);

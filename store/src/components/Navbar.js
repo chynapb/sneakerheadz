@@ -1,10 +1,4 @@
-import {
-  Button,
-  Container,
-  Nav,
-  NavbarBrand,
-  Navbar as NavbarBs,
-} from 'react-bootstrap';
+import { Button, Container, Nav, Navbar as NavbarBs } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import { useCart } from '../context/CartContext';
 
@@ -27,12 +21,12 @@ export const Navbar = () => {
         <Button
           onClick={openCart}
           style={{
-            width: '3rem',
-            height: '3rem',
+            width: '3.25rem',
+            height: '3.25rem',
             position: 'relative',
             border: 'none',
           }}
-          className='btn btn-secondary rounded-circle'
+          className='btn btn-dark rounded-circle'
         >
           <svg
             xmlns='http://www.w3.org/2000/svg'
@@ -46,10 +40,11 @@ export const Navbar = () => {
             <div
               className='rounded-circle bg-danger d-flex justify-content-center align-items-center'
               style={{
+                fontSize: '1rem',
                 width: '1.5rem',
                 height: '1.5rem',
                 position: 'absolute',
-                bottom: 0,
+                bottom: 2,
                 right: 0,
                 transform: 'translate(-30px, 5px)',
               }}
