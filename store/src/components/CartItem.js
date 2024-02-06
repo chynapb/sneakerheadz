@@ -35,6 +35,7 @@ export const CartItem = ({ id, quantity }) => {
       <div>{formatCurrency(shopItem.price * quantity)} </div>
       <Button
         variant='outline-danger'
+        style={{ borderRadius: '0px' }}
         size='sm'
         onClick={() => removeCartItem(shopItem.id)}
       >

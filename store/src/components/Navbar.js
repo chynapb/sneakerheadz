@@ -15,7 +15,7 @@ export const Navbar = () => {
             style={{ color: 'white', fontSize: '1.5rem' }}
             className='link'
           >
-            SHOP
+            HOME
           </Nav.Link>
         </Nav>
         <Button

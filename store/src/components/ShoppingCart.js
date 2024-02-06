@@ -66,7 +66,7 @@ export const ShoppingCart = ({ isOpen }) => {
                 {cartQuantity > 0 && (
                   <Button
                     className='w-100 btn-dark'
-                    style={{ border: 'none' }}
+                    style={{ border: 'none', borderRadius: '0px' }}
                     onClick={checkout}
                   >
                     Checkout

@@ -12,7 +12,7 @@ export const ItemCard = ({ id, name, price, imgUrl }) => {
 
   return (
     <Card
-      style={{ border: 'none', borderRadius: '15px' }}
+      style={{ border: 'none', borderRadius: '0px' }}
       className='h-100 shadow bg-white'
     >
       <CardImg
@@ -27,12 +27,12 @@ export const ItemCard = ({ id, name, price, imgUrl }) => {
             {formatCurrency(price)}
           </span>
         </CardTitle>
-        <div className='mt-auto'>
+        <div className='mt-auto d-flex justify-content-center'>
           {quantity === 0 ? (
             <Button
               onClick={() => increaseCartQuantity(id)}
-              className='add-btn w-100 btn-dark'
-              style={{ border: 'none', borderRadius: '20px' }}
+              className='add-btn w-30 btn-dark'
+              style={{ border: 'none', borderRadius: '0px' }}
             >
               Add to cart
             </Button>
@@ -49,7 +49,11 @@ export const ItemCard = ({ id, name, price, imgUrl }) => {
                   onClick={() => decreaseCartQuantity(id)}
                   className='btn-secondary'
                   size='sm'
-                  style={{ color: 'white', outline: 'none' }}
+                  style={{
+                    color: 'white',
+                    outline: 'none',
+                    borderRadius: '0px',
+                  }}
                 >
                   -
                 </Button>
@@ -58,7 +62,11 @@ export const ItemCard = ({ id, name, price, imgUrl }) => {
                   onClick={() => increaseCartQuantity(id)}
                   className='btn-secondary'
                   size='sm'
-                  style={{ color: 'white', outline: 'none' }}
+                  style={{
+                    color: 'white',
+                    outline: 'none',
+                    borderRadius: '0px',
+                  }}
                 >
                   +
                 </Button>

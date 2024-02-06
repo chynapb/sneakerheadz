@@ -13,7 +13,7 @@ function App() {
     <CartProvider>
       <Navbar />
       <Header />
-      <Container className='mb-3'>
+      <Container className='mb-5'>
         <Routes>
           <Route path='/' element={<Shop />} />
           <Route path='success' element={<Success />} />
