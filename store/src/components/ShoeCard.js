@@ -5,7 +5,7 @@ import { useCart } from '../context/CartContext';
 
 // Render each shopping item as a card element - display image, name, and price
 
-export const ItemCard = ({ id, name, price, imgUrl }) => {
+export const ShoeCard = ({ id, name, price, imgUrl }) => {
   const { getItemQuantity, increaseCartQuantity, decreaseCartQuantity } =
     useCart();
   const quantity = getItemQuantity(id);

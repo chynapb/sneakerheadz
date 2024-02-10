@@ -9,7 +9,7 @@ import {
 import { useCart } from '../context/CartContext';
 import { CartItem } from './CartItem';
 import { formatCurrency } from '../utils/formatCurrency';
-import items from '../data/items.json';
+import shoes from '../data/shoes.json';
 
 // Display all items in cart
 
@@ -57,7 +57,7 @@ export const ShoppingCart = ({ isOpen }) => {
                 Total:{' '}
                 {formatCurrency(
                   cartItems.reduce((acc, curr) => {
-                    const shopItem = items.find((item) => item.id === curr.id);
+                    const shopItem = shoes.find((shoe) => shoe.id === curr.id);
                     return acc + (shopItem?.price || 0) * curr.quantity;
                   }, 0)
                 )}

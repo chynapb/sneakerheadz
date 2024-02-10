@@ -1,13 +1,13 @@
 import { Stack, Button } from 'react-bootstrap';
 import { useCart } from '../context/CartContext';
-import items from '../data/items.json';
+import shoes from '../data/shoes.json';
 import { formatCurrency } from '../utils/formatCurrency';
 
 // Render item currently in cart -  display image, name, and price
 
 export const CartItem = ({ id, quantity }) => {
   const { removeCartItem } = useCart();
-  const shopItem = items.find((item) => item.id === id);
+  const shopItem = shoes.find((shoe) => shoe.id === id);
 
   if (shopItem == null) return null;
 

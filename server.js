@@ -11,7 +11,6 @@ app.use(express.json());
 
 app.post('/checkout', async (req, res) => {
   // Create line items and format them for Stripe
-  console.log(req.body);
   const items = req.body.items;
   let lineItems = [];
   items.forEach((item) => {

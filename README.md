@@ -2,7 +2,7 @@
 
 E-commerce sneaker store that allows users to browse sneakers, add items to their cart, and complete the checkout process. Utilizes Stripe for payment processing.
 
-\*Note: When completing the Stripe checkout process:
+\*\*Note\*\*: When completing the Stripe checkout process:
 
 1. Enter 4242 4242 4242 4242 as the card number
 2. Enter any future date for card expiry
