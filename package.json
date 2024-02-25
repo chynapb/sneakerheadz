@@ -3,7 +3,7 @@
   "description": "E-commerce sneaker store that allows users to browse sneakers, add items to their cart, and complete the checkout process. Utilizes React, Express.js, and Stripe for payment processing.",
   "version": "1.0.0",
   "engines": {
-    "node": "16.x"
+    "node": ">=10"
   },
   "main": "server.js",
   "scripts": {
