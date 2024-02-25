@@ -16,8 +16,8 @@ function App() {
       <Container className='mb-5'>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='success' element={<Success />} />
-          <Route path='cancel' element={<Cancel />} />
+          <Route path='/success' element={<Success />} />
+          <Route path='/cancel' element={<Cancel />} />
         </Routes>
       </Container>
     </CartProvider>

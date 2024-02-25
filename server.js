@@ -36,8 +36,8 @@ app.post('/checkout', async (req, res) => {
   const session = await stripe.checkout.sessions.create({
     line_items: lineItems,
     mode: 'payment',
-    success_url: `http://localhost:${PORT}/success`,
-    cancel_url: `http://localhost:${PORT}/cancel`,
+    success_url: `https://sneakerheadz-06fa4353b04d.herokuapp.com/success`,
+    cancel_url: `https://sneakerheadz-06fa4353b04d.herokuapp.com/cancel`,
   });
 
   // Send user to Stripe session
