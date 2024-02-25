@@ -1,6 +1,6 @@
 # SneakerHeadz
 
-E-commerce sneaker store that allows users to browse sneakers, add items to their cart, and complete the checkout process. Utilizes Stripe for payment processing.
+E-commerce sneaker store that allows users to browse sneakers, add items to their cart, and complete the checkout process. Utilizes React, Express.js, and Stripe for payment processing.
 
 **`Note`**: When completing the Stripe checkout process:
 
