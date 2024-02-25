@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chynapb/ecommerce-site.git"
+    "url": "git+https://github.com/chynapb/sneakerheadz.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/chynapb/ecommerce-site/issues"
+    "url": "https://github.com/chynapb/sneakerheadz/issues"
   },
-  "homepage": "https://github.com/chynapb/ecommerce-site#readme",
+  "homepage": "https://github.com/chynapb/sneakerheadz",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
