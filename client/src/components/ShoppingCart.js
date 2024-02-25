@@ -18,7 +18,7 @@ export const ShoppingCart = ({ isOpen }) => {
 
   // Checkout functionality
   const checkout = async () => {
-    await fetch('https://localhost:4000/checkout', {
+    await fetch('https://localhost:5000/checkout', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
