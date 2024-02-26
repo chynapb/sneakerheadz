@@ -8,3 +8,5 @@ E-commerce sneaker store that allows users to browse sneakers, add items to thei
 2. Enter any future date for card expiry
 3. Enter any 3-digit number for CVV
 4. Enter any billing postal code
+
+**`Live demo`**: https://sneakerheadz-06fa4353b04d.herokuapp.com

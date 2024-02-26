@@ -18,7 +18,7 @@ export const ShoppingCart = ({ isOpen }) => {
 
   // Checkout functionality
   const checkout = async () => {
-    await fetch('https://sneakerheadz-06fa4353b04d.herokuapp.com/checkout', {
+    await fetch('/checkout', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
