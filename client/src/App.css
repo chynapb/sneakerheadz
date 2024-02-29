@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@1,800&family=Oswald&display=swap');
 
 .header {
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Alegreya Sans SC', 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
   text-align: center;
   font-size: 3rem;
   color: rgb(218, 29, 29);
