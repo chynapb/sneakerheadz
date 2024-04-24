@@ -1,6 +1,6 @@
 # SneakerHeadz
 
-<img src="https://github.com/chynapb/sneakerheadz/assets/110194146/a78879df-75e6-4b3f-ba82-a95d7a98d056" width="500">
+![sneakerheadz](https://github.com/chynapb/sneakerheadz/assets/110194146/a78879df-75e6-4b3f-ba82-a95d7a98d056)
 
 E-commerce sneaker store that allows users to browse sneakers, add items to their cart, and complete the checkout process. Utilizes React, Express.js, and Stripe for payment processing.
 
